@@ -1,0 +1,32 @@
+{
+  "name": "es6-v14-handler-discord.js",
+  "version": "1.0.0",
+  "description": "A advanced handler for discord.js v14.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K4H1N388/ES6-V14-Handler-Discord.js.git"
+  },
+  "keywords": [
+    "handler",
+    "k4h1n",
+    "v14",
+    "bot",
+    "discord"
+  ],
+  "author": "Discord: k4h1n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/K4H1N388/ES6-V14-Handler-Discord.js/issues"
+  },
+  "homepage": "https://github.com/K4H1N388/ES6-V14-Handler-Discord.js#readme",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security"
+  }
+}
