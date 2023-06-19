@@ -15,7 +15,7 @@ export default client => {
 
                 // CoolDown Check
                 let cooldown = await CooldownChecker(command, interaction.user.id);
-                if (cooldown) return await interaction.reply({ content: `You are on cooldown! Please wait ${cooldown} second(s) before using this command again!`, ephemeral: true }); // If the user is on cooldown, send a message
+                if (cooldown) return interaction.reply({ content: `You are on cooldown! Please wait ${cooldown} second(s) before using this command again!`, ephemeral: true }); // If the user is on cooldown, send a message
 
                 // Permission Check
                 let permissionCheck = await permissionChecker({
@@ -29,8 +29,8 @@ export default client => {
                     }
                 })
 
-                if (!permissionCheck.bot) return await interaction.reply({ content: `I do not have the required permissions to execute this command!`, ephemeral: true }); // If the bot does not have the required permissions, send a message
-                else if (!permissionCheck.user) return await interaction.reply({ content: `You do not have the required permissions to execute this command!`, ephemeral: true }); // If the user does not have the required permissions, send a message
+                if (!permissionCheck.bot) return interaction.reply({ content: `I do not have the required permissions to execute this command!`, ephemeral: true }); // If the bot does not have the required permissions, send a message
+                else if (!permissionCheck.user) return interaction.reply({ content: `You do not have the required permissions to execute this command!`, ephemeral: true }); // If the user does not have the required permissions, send a message
 
                 // Execute the command
                 await command.command_data.execute(interaction);
