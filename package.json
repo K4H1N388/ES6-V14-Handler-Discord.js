@@ -25,8 +25,10 @@
   },
   "homepage": "https://github.com/K4H1N388/ES6-V14-Handler-Discord.js#readme",
   "dependencies": {
+    "better-sqlite3": "^8.4.0",
     "discord.js": "^14.11.0",
     "dotenv": "^16.3.1",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "quick.db": "^9.1.6"
   }
 }
