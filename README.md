@@ -48,5 +48,5 @@ export const slash_data = {
 ## Support and Contact
 - [Discord Server](https://discord.gg/8SdRngdHag)
 - [Discord Profile](https://discord.com/users/673210759274299413)
-- [Github] (https://github.com/K4H1N388)
-- [Instagram] (https://www.instagram.com/brterdm._/)
+- [Github](https://github.com/K4H1N388)
+- [Instagram](https://www.instagram.com/brterdm._/)
