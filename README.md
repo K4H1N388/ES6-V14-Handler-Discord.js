@@ -10,6 +10,7 @@ A advanced handler for discord.js v14.
 - Run the bot by opening the file named `start.bat` or by typing `node .` in the terminal.
 
 ## Features
+- Database Support.
 - Permission Checks.
 - Cooldowns.
 - İnteraction Handlers. (slash commands, buttons, select menus etc.)
@@ -30,7 +31,7 @@ export const command_data = {
         user: [], // User Permissions
         bot: [] // Bot Permissions
     },
-    async execute(interaction) { // Command Execution
+    async execute(interaction, db) { // Command Execution
         // your code here
     }
 }
