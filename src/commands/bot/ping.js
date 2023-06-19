@@ -15,5 +15,6 @@ export const command_data = {
 // Slash Command Handler
 export const slash_data = {
     name: command_data.name, // Slash Command Name
-    description: command_data.description // Slash Command Description
+    description: command_data.description, // Slash Command Description
+    dm_permission: false
 }
